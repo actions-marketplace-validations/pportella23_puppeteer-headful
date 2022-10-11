@@ -1,9 +1,9 @@
-name: 'Puppeteer Headful GitHub Action'
-description: 'Puppeteer Headful Container to GitHub Action'
-author: 'Beemi Raja'
+name: 'GitHub Action Docker Container for Puppeteer Headful'
+description: 'GitHub Action Docker Container for Puppeteer Headful with Emojis'
+author: 'Pedro Portella'
 runs:
   using: 'docker'
   image: 'Dockerfile'
 branding:
-  icon: 'arrow-up-left'
-  color: 'orange'
+  icon: 'chevrons-up'
+  color: 'yellow'
