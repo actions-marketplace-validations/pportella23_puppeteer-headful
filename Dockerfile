@@ -28,4 +28,7 @@ ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
 COPY README.md /
 
 COPY entrypoint.sh /entrypoint.sh
+
+RUN chmod +x *.sh
+
 ENTRYPOINT ["/entrypoint.sh"]
